@@ -1,4 +1,4 @@
-FROM tomcat:9.0-jdk11-corretto-al2
+FROM tomcat:9.0-jdk17-corretto-al2
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 ADD W5_21110335.war /usr/local/tomcat/webapps/
 
