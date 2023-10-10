@@ -1,7 +1,7 @@
 FROM tomcat:9.0-jdk17-corretto-al2
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 RUn rm -rf /usr/local/tomcat/webapps/examples
-ADD W5_21110335.war /usr/local/tomcat/webapps/
+ADD vantrung_web.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
